@@ -1,4 +1,5 @@
 "use client";
+import { motion } from "framer-motion";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 
@@ -35,21 +36,31 @@ const Slider = () => {
   return (
     <div className="flex flex-col h-[calc(100vh-6rem)] md:h-[calc(100vh-9rem)] lg:flex-row bg-fuchsia-50">
       {/* TEXT CONTAINER */}
-      <div className="flex-1 flex items-center justify-center flex-col gap-8 text-red-500 font-bold">
+      <div className="flex-1 flex items-center justify-center flex-col gap-8 text-orange-500 font-bold">
         <h1 className="text-5xl text-center uppercase p-4 md:p-10 md:text-6xl xl:text-7xl">
           {data[currentSlide].title}
         </h1>
-        <button className="bg-red-500 text-white py-4 px-8">Order Now</button>
+        <button className="bg-orange-500 text-white py-4 px-8">Order Now</button>
       </div>
       {/* IMAGE CONTAINER */}
-      <div className="w-full flex-1 relative">
+      <motion.div 
+      className="w-full flex-1 relative"
+      initial="hidden"
+      whileInView='visible'
+      viewport={{once:true,amount:0.5}}
+      transition={{duration:0.5}}
+      variants={{
+         hidden:{opacity:0,x: 60},
+         visible:{opacity:1,x: 0},
+      }}
+      >
         <Image
           src={data[currentSlide].image}
           alt=""
           fill
           className="object-cover"
         />
-      </div>
+      </motion.div >
     </div>
   );
 };
