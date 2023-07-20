@@ -1,19 +1,15 @@
-# food-ordering-app 🍔🍕🥗🍱🥪🍣🍜🍛🍝🍲🍿🍨🍩🍪🍰🎂🍮🍫🍬🍭🍯
+# food-ordering-app 🍔🍕🍝
 
 Awesome Food Ordering App 🍽️🛒📱
 ## Overview
 👋 Hi there! Welcome to my awesome Food Ordering App built with React, Next.js, TypeScript, Tailwind CSS, and Framer Motion. 🎉
 
-This app is designed to provide a seamless and delightful experience for users to order their favorite food items from a wide selection of restaurants and cuisines. Whether it's 🍔 juicy burgers, 🍕 mouthwatering pizzas, 🍣 fresh sushi, or 🍜 comforting noodles, this app has got you covered!
+This app is designed to provide a seamless and delightful experience for users to order their favorite food items from a wide selection of restaurants and cuisines. Whether it's 🍔 juicy burgers, 🍕 mouthwatering pizzas,or comforting noodles, this app has got you covered!
 
 ## Features 🚀
 📱 Responsive Design: Enjoy a smooth user experience on any device, be it desktop, tablet, or mobile.
 
-🔍 Search Functionality: Easily find your favorite dishes or restaurants with the powerful search feature.
-
 📦 Cart Management: Add, remove, and update items in your cart effortlessly.
-
-📍 Location-based Services: Get personalized recommendations based on your location.
 
 🌟 Animations with Framer Motion: Enjoy stunning page transitions and interactive elements.
 
