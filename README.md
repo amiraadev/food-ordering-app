@@ -1,4 +1,5 @@
 # food-ordering-app 🍔🍕🍝
+## Preview
 
 Awesome Food Ordering App 🍽️🛒📱
 ## Overview
