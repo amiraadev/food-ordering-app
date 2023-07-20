@@ -1,6 +1,7 @@
 {
   "name": "food-ordering-app",
   "version": "0.1.0",
+  "homepage": "https://amirticha.github.io/food-ordering-app/",
   "private": true,
   "scripts": {
     "dev": "next dev",
