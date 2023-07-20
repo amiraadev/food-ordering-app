@@ -17,7 +17,7 @@ const data = [
   {
     id: 3,
     title: "the best pizza to share with your family",
-    image: "/slide3.jpg",
+    image: "./slide3.jpg",
   },
 ];
 

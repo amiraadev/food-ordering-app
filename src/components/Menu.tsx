@@ -19,8 +19,8 @@ const Menu = () => {
     <div className=' '>
         {
          !open ? 
-         <Image src="/open.png" alt="" width={20} height={20} onClick={() => setOpen(true)}/> :
-         <Image src="/close.png" alt="" width={20} height={20} onClick={() => setOpen(false)}/> 
+         <Image src="./open.png" alt="" width={20} height={20} onClick={() => setOpen(true)}/> :
+         <Image src="./close.png" alt="" width={20} height={20} onClick={() => setOpen(false)}/> 
         }
        
        {
