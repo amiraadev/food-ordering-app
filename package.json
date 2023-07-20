@@ -1,7 +1,6 @@
 {
   "name": "food-ordering-app",
   "version": "0.1.0",
-  "homepage": "https://amirticha.github.io/food-ordering-app/",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -22,5 +21,8 @@
     "react-dom": "18.2.0",
     "tailwindcss": "3.3.3",
     "typescript": "5.1.6"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
