@@ -1,0 +1,40 @@
+# Ignore node_modules folder and its contents
+node_modules
+
+# Ignore build output folders
+out
+.build
+
+# Ignore development-specific folders
+.cache
+.next
+.env.local
+.env.development.local
+
+# Ignore files used for development only
+*.log
+yarn-error.log
+npm-debug.log
+
+# Ignore other development-related files
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+*.vscode
+*.idea
+
+# Ignore backup files
+*.bak
+
+# Ignore any sensitive or secret files
+.env
+
+# Ignore test and test-related files
+test
+tests
+*.spec.js
+*.test.js
+
+# Ignore documentation files
+docs
+*.md
