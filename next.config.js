@@ -3,7 +3,6 @@
  */
 const nextConfig = {
     output: 'export',
-    basePath: '/public',
 
     // Optional: Add a trailing slash to all paths `/about` -> `/about/`
     // trailingSlash: true,
