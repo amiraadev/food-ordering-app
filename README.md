@@ -1,5 +1,6 @@
 # food-ordering-app 🍔🍕🍝
 ## Preview
+https://amirticha.github.io/food-ordering-app/
 
 Awesome Food Ordering App 🍽️🛒📱
 ## Overview
