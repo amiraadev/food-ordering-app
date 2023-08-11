@@ -3,7 +3,7 @@
  */
 const nextConfig = {
     basePath: '/food-ordering-app',
-    output: 'export',
+    // output: 'export',
 
     // Optional: Add a trailing slash to all paths `/about` -> `/about/`
     // trailingSlash: true,
