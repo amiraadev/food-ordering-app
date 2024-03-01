@@ -1,7 +1,7 @@
 # food-ordering-app 🍔🍕🍝
 
 ## Preview
- https://amiraallagui.github.io/food-ordering-app/
+ https://amiraadev.github.io/food-ordering-app/
 
 Awesome Food Ordering App 🍽️🛒📱
 ## Overview
